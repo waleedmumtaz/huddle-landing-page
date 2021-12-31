@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import BuildCommunity from '../components/BuildCommunity'
 import FlowingConversations from '../components/FlowingConversations'
 import GrowTogether from '../components/GrowTogether'
 import Header from '../components/Header'
@@ -13,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Huddle Landing Page</title>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
         <link
           href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap'
           rel='stylesheet'
@@ -28,6 +29,7 @@ export default function Home() {
       <GrowTogether />
       <FlowingConversations />
       <YourUsers />
+      <BuildCommunity />
     </>
   )
 }
