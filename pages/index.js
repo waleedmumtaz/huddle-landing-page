@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import BuildCommunity from '../components/BuildCommunity'
+import Contact from '../components/Contact'
 import FlowingConversations from '../components/FlowingConversations'
 import GrowTogether from '../components/GrowTogether'
 import Header from '../components/Header'
@@ -30,6 +31,7 @@ export default function Home() {
       <FlowingConversations />
       <YourUsers />
       <BuildCommunity />
+      <Contact />
     </>
   )
 }
