@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         cstm: {
           primary: {
-            'pink': 'hsl(322, 100%, 66%)',
+            pink: 'hsl(322, 100%, 66%)',
             'light-pink': 'hsl(321, 100%, 78%)',
             'light-red': 'hsl(0, 100%, 63%)',
           },
@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif'],
       },
       screens: {
         mobile: '375px',

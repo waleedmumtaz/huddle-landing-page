@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Hero from '../components/Hero'
+import ImageSection from '../components/ImageSection'
+import Stats from '../components/Stats'
 
 export default function Home() {
   return (
@@ -13,8 +16,15 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
-      <div className='container mx-auto'>
-        <Header />
+      <div className=''>
+        <div className='container mx-auto'>
+          <div className='flex flex-col min-h-[95vh]'>
+            <Header />
+            <Hero />
+          </div>
+          <ImageSection />
+          <Stats />
+        </div>
       </div>
     </>
   )
