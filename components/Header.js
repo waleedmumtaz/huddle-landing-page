@@ -2,7 +2,7 @@ import Navbar from './Navbar'
 
 export default function Header() {
   return (
-    <header className='container mx-auto pt-20'>
+    <header className='md:container w-full mx-auto pt-20'>
       <Navbar />
     </header>
   )

@@ -1,6 +1,6 @@
 export default function BuildCommunity() {
   return (
-    <section className='py-40'>
+    <section className='py-40 px-5 md:px-0'>
       <div className='container mx-auto flex flex-col items-center'>
         <h2 className='font-poppins text-5xl'>
           Ready To Build Your Community?

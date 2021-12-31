@@ -2,7 +2,7 @@ export default function FlowingConversations() {
   return (
     <section className='py-20'>
       <div className='container mx-auto'>
-        <div className='grid grid-cols-2 gap-10 place-items-center'>
+        <div className='md:grid md:grid-cols-2 gap-10 place-items-center'>
           <div>
             <img
               src='/assets/illustration-flowing-conversation.svg'

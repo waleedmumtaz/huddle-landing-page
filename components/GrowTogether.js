@@ -8,7 +8,7 @@ export default function GrowTogether() {
       />
       <div className='bg-cstm-neutral-pale-blue py-10'>
         <div className='container mx-auto'>
-          <div className='grid grid-cols-2 gap-10 place-items-center'>
+          <div className='md:grid md:grid-cols-2 gap-10 place-items-center'>
             <div>
               <h2 className='font-poppins text-5xl'>Grow Together</h2>
               <p className='font-open-sans font-semibold text-xl mt-10 max-w-2xl'>

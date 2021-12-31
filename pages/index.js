@@ -25,7 +25,7 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
-      <div className='flex flex-col min-h-[95vh]'>
+      <div className='flex flex-col min-h-[95vh] w-full'>
         <Header />
         <Hero />
       </div>

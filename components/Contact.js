@@ -8,7 +8,7 @@ export default function Contact() {
       />
       <div className='bg-cstm-neutral-dark-cyan py-20'>
         <div className='container mx-auto'>
-          <div className='grid grid-cols-2'>
+          <div className='md:grid md:grid-cols-2'>
             <div className='text-white font-open-sans'>
               <img src='/assets/logo-white.svg' alt='logo' className='' />
               <p className='max-w-sm my-10'>
@@ -53,7 +53,7 @@ export default function Contact() {
                 weekly newsletter. We'll never send you spam or pass on your
                 email address
               </p>
-              <div className='flex gap-10'>
+              <div className='md:flex gap-10'>
                 <input
                   type='email'
                   placeholder='Enter your email'
