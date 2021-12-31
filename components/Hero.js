@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='flex-1 flex flex-col justify-center items-center'>
+    <section className='container mx-auto flex-1 flex flex-col justify-center items-center'>
       <h1 className='font-poppins text-6xl'>
         Build The Community Your Fans Will Love
       </h1>

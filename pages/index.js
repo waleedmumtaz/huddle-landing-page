@@ -1,8 +1,11 @@
 import Head from 'next/head'
+import FlowingConversations from '../components/FlowingConversations'
+import GrowTogether from '../components/GrowTogether'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ImageSection from '../components/ImageSection'
 import Stats from '../components/Stats'
+import YourUsers from '../components/YourUsers'
 
 export default function Home() {
   return (
@@ -16,16 +19,15 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
-      <div className=''>
-        <div className='container mx-auto'>
-          <div className='flex flex-col min-h-[95vh]'>
-            <Header />
-            <Hero />
-          </div>
-          <ImageSection />
-          <Stats />
-        </div>
+      <div className='flex flex-col min-h-[95vh]'>
+        <Header />
+        <Hero />
       </div>
+      <ImageSection />
+      <Stats />
+      <GrowTogether />
+      <FlowingConversations />
+      <YourUsers />
     </>
   )
 }

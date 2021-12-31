@@ -1,6 +1,6 @@
 export default function Stats() {
   return (
-    <section className='py-40'>
+    <section className='container mx-auto py-40'>
       <div className='grid grid-cols-2 place-items-center'>
         <div>
           <img src='/assets/icon-communities.svg' alt='communities icon' />
