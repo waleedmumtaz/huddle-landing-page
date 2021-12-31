@@ -40,7 +40,24 @@ export default function Contact() {
               />
             </div>
           </div>
-          <div></div>
+          <div className='font-open-sans text-white max-w-xl'>
+            <h3 className='uppercase text-3xl font-bold'>Newsletter</h3>
+            <p className='py-10 max-w-sm'>
+              To receive tips on how to grow your community, sign up tp our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+            <div className='flex gap-10'>
+              <input
+                type='email'
+                placeholder='Enter your email'
+                className='border-2 border-cstm-neutral-dark-cyan p-4 flex-1 rounded-lg'
+              />
+              <button className='bg-cstm-primary-pink text-white font-open-sans font-semibold px-14 rounded-lg'>
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
