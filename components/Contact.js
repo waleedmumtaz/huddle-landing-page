@@ -6,9 +6,9 @@ export default function Contact() {
         alt='curve section'
         width='100%'
       />
-      <div className='bg-cstm-neutral-dark-cyan py-20'>
+      <div className='bg-cstm-neutral-dark-cyan py-20 px-5 md:px-0'>
         <div className='container mx-auto'>
-          <div className='md:grid md:grid-cols-2'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-40 md:gap-0'>
             <div className='text-white font-open-sans'>
               <img src='/assets/logo-white.svg' alt='logo' className='' />
               <p className='max-w-sm my-10'>
@@ -31,38 +31,41 @@ export default function Contact() {
                   alt='facebook icon'
                   width='40px'
                   height='40px'
+                  className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
                 <img
                   src='/assets/icon-instagram.svg'
                   alt='instagram icon'
                   width='40px'
                   height='40px'
+                  className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
                 <img
                   src='/assets/icon-twitter.svg'
                   alt='twitter icon'
                   width='40px'
                   height='40px'
+                  className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
               </div>
             </div>
-            <div className='font-open-sans text-white max-w-xl'>
+            <div className='font-open-sans text-white max-w-xl order-first md:order-none'>
               <h3 className='uppercase text-3xl font-bold'>Newsletter</h3>
               <p className='py-10 max-w-sm'>
                 To receive tips on how to grow your community, sign up tp our
                 weekly newsletter. We'll never send you spam or pass on your
                 email address
               </p>
-              <div className='md:flex gap-10'>
+              <form className='flex flex-col md:flex-row gap-5 md:gap-10'>
                 <input
                   type='email'
                   placeholder='Enter your email'
-                  className='p-4 flex-1 rounded-lg outline-cstm-primary-pink text-black'
+                  className='p-4 md:flex-1 rounded-lg outline-cstm-primary-pink text-black w-full md:w-auto'
                 />
-                <button className='bg-cstm-primary-pink text-white font-open-sans font-semibold px-14 rounded-lg'>
+                <button type="submit" className='bg-cstm-primary-pink hover:bg-cstm-primary-light-pink text-white font-open-sans font-semibold py-4 md:px-14 rounded-lg w-1/2 md:w-auto self-end'>
                   Subscribe
                 </button>
-              </div>
+              </form>
             </div>
           </div>
         </div>

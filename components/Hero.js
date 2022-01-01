@@ -9,7 +9,7 @@ export default function Hero() {
         so does your audience. Create connections with your users as you engage
         in genuine discussion.
       </p>
-      <button className='font-open-sans font-bold text-lg md:text-2xl shadow-lg bg-cstm-primary-pink text-white rounded-full px-16 md:px-32 py-4 md:py-8'>
+      <button className='font-open-sans font-bold text-lg md:text-2xl shadow-lg bg-cstm-primary-pink hover:bg-cstm-primary-light-pink text-white rounded-full px-16 md:px-32 py-4 md:py-8'>
         Get Started For Free
       </button>
     </section>
