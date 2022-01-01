@@ -1,6 +1,6 @@
 export default function FlowingConversations() {
   return (
-    <section className='py-20 px-5 md:px-0'>
+    <div className='py-20 px-5 md:px-0'>
       <div className='container mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-10 place-items-center'>
           <div>
@@ -21,6 +21,6 @@ export default function FlowingConversations() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

@@ -1,6 +1,6 @@
 export default function Stats() {
   return (
-    <section className='max-w-[18rem] md:max-w-none container mx-auto py-40'>
+    <div className='max-w-[18rem] md:max-w-none container mx-auto py-40'>
       <div className='md:grid md:grid-cols-2 md:place-items-center'>
         <div className='flex flex-col justifiy-center items-center md:flex-none'>
           <img
@@ -23,6 +23,6 @@ export default function Stats() {
           <p className='font-open-sans text-2xl text-gray-400'>Messages Sent</p>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

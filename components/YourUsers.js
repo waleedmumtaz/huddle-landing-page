@@ -1,10 +1,10 @@
 export default function YourUsers() {
   return (
-    <section className='py-20 px-5 md:px-0'>
+    <div className='py-20 px-5 md:px-0'>
       <img
         src='/assets/bg-section-top-desktop-2.svg'
         alt='curve section'
-        width='100%'
+        className='w-full'
       />
       <div className='bg-cstm-neutral-pale-blue py-10'>
         <div className='container mx-auto'>
@@ -26,8 +26,8 @@ export default function YourUsers() {
       <img
         src='/assets/bg-section-bottom-desktop-2.svg'
         alt='curve section'
-        width='100%'
+        className='w-full'
       />
-    </section>
+    </div>
   )
 }

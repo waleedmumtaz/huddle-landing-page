@@ -1,16 +1,16 @@
 export default function Contact() {
   return (
-    <section className='pt-10'>
+    <div className='pt-10'>
       <img
         src='/assets/bg-footer-top-desktop.svg'
         alt='curve section'
-        width='100%'
+        className='w-full'
       />
       <div className='bg-cstm-neutral-dark-cyan py-20 px-5 md:px-0'>
         <div className='container mx-auto'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-40 md:gap-0'>
             <div className='text-white font-open-sans'>
-              <img src='/assets/logo-white.svg' alt='logo' className='' />
+              <img src='/assets/logo-white.svg' alt='logo' />
               <p className='max-w-sm my-10'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
                 quos, a sunt voluptas aut laudantium pariatur ut consequatur
@@ -29,22 +29,22 @@ export default function Contact() {
                 <img
                   src='/assets/icon-facebook.svg'
                   alt='facebook icon'
-                  width='40px'
-                  height='40px'
+                  width='40'
+                  height='40'
                   className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
                 <img
                   src='/assets/icon-instagram.svg'
                   alt='instagram icon'
-                  width='40px'
-                  height='40px'
+                  width='40'
+                  height='40'
                   className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
                 <img
                   src='/assets/icon-twitter.svg'
                   alt='twitter icon'
-                  width='40px'
-                  height='40px'
+                  width='40'
+                  height='40'
                   className='hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'
                 />
               </div>
@@ -62,7 +62,10 @@ export default function Contact() {
                   placeholder='Enter your email'
                   className='p-4 md:flex-1 rounded-lg outline-cstm-primary-pink text-black w-full md:w-auto'
                 />
-                <button type="submit" className='bg-cstm-primary-pink hover:bg-cstm-primary-light-pink text-white font-open-sans font-semibold py-4 md:px-14 rounded-lg w-1/2 md:w-auto self-end'>
+                <button
+                  type='submit'
+                  className='bg-cstm-primary-pink hover:bg-cstm-primary-light-pink text-white font-open-sans font-semibold py-4 md:px-14 rounded-lg w-1/2 md:w-auto self-end'
+                >
                   Subscribe
                 </button>
               </form>
@@ -70,6 +73,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
